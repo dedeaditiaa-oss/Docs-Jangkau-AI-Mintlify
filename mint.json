@@ -1,0 +1,91 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Jangkau AI Docs",
+  "logo": {
+    "light": "/assets/logo.png",
+    "dark": "/assets/logo.png"
+  },
+  "favicon": "/assets/favicon.png",
+  "colors": {
+    "primary": "#00A86B",
+    "light": "#07C175",
+    "dark": "#007A4B"
+  },
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        {
+          "group": "🚀 Panduan Dasar",
+          "pages": [
+            "pengenalan",
+            "registrasi-dan-login",
+            "reset-password",
+            "start"
+          ]
+        },
+        {
+          "group": "🔌 Hubungkan ke Platform",
+          "pages": [
+            "platform-wa",
+            "platform-website",
+            "platform-telegram"
+          ]
+        },
+        {
+          "group": "🤖 Atur Bot AI",
+          "pages": [
+            "umum",
+            "website",
+            {
+              "group": "Pilih Jenis AI",
+              "pages": [
+                "Booking/Reservasi",
+                {
+                  "group": "Support Helpdesk",
+                  "pages": [
+                    "cs-pengenalan",
+                    "cs-pengaturan",
+                    "cs-file",
+                    "cs-qna",
+                    "cs-kategori",
+                    "cs-prioritas",
+                    "cs-penomoran",
+                    "cs-pengingat"
+                  ]
+                },
+                {
+                  "group": "Lead Generation",
+                  "pages": [
+                    "lead-pengenalan",
+                    "lead-katalog",
+                    "lead-pengaturan",
+                    "lead-file",
+                    "lead-qna",
+                    "lead-klasifikasi",
+                    "lead-kategori",
+                    "lead-penomoran"
+                  ]
+                },
+                "Chat Commerce"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "👥 Tambah Staf",
+          "pages": [
+            "agen"
+          ]
+        },
+        {
+          "group": "💳 Paket & Biaya",
+          "pages": [
+            "pembayaran"
+          ]
+        }
+      ]
+    }
+  ]
+}

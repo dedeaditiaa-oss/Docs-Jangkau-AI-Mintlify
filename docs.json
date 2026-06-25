@@ -1,0 +1,86 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Jangkau AI Docs",
+  "colors": {
+    "primary": "#00A86B",
+    "light": "#07C175",
+    "dark": "#007A4B"
+  },
+  "favicon": "/assets/favicon.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Selamat Datang di Jangkau AI",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "Mulai Di Sini",
+        "pages": [
+          "pengenalan",
+          "registrasi-dan-login",
+          "reset-password",
+          "start"
+        ]
+      },
+      {
+        "group": "Platform Terhubung",
+        "pages": [
+          "platform"
+        ]
+      },
+      {
+        "group": "Bot AI",
+        "pages": [
+          "umum",
+          "website",
+          {
+            "group": "Jenis Bot",
+            "pages": [
+              "booking",
+              {
+                "group": "Support Helpdesk",
+                "pages": [
+                  "cs-pengaturan",
+                  "cs-file",
+                  "cs-qna",
+                  "cs-kategori",
+                  "cs-prioritas",
+                  "cs-penomoran",
+                  "cs-pengingat"
+                ]
+              },
+              {
+                "group": "Lead Generation",
+                "pages": [
+                  "lead-katalog",
+                  "lead-pengaturan",
+                  "lead-file",
+                  "lead-qna",
+                  "lead-klasifikasi",
+                  "lead-kategori",
+                  "lead-penomoran"
+                ]
+              },
+              "chat"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Manajemen Agen",
+        "pages": [
+          "agen"
+        ]
+      },
+      {
+        "group": "Sistem Pembayaran",
+        "pages": [
+          "pembayaran"
+        ]
+      }
+    ]
+  }
+}

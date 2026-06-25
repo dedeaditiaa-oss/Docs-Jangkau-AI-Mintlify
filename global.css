@@ -1,0 +1,6 @@
+/* Mengatur ukuran logo di header agar lebih besar */
+header img {
+  height: 50px !important; /* Menaikkan tinggi default dari ~24px ke 36px */
+  width: auto !important;   /* Menjaga proporsi logo agar tidak gepeng */
+  max-height: none !important;
+}

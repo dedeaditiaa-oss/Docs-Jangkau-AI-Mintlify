@@ -28,8 +28,27 @@
         {
           "group": "🔌 Hubungkan ke Platform",
           "pages": [
-            "platform-wa",
-            "platform-website",
+            {
+              "group": "Channel WhatsApp",
+              "pages": [
+                "wa-hubungkan",
+                "wa-pengaturan",
+                "wa-kolaborator",
+                "wa-jamkerja",
+                "wa-status"
+              ]
+            },
+            {
+              "group": "Channel Website",
+              "pages": [
+                "web-hubungkan",
+                "web-kolaborator",
+                "web-pengaturan",
+                "web-jamkerja",
+                "web-formulir",
+                "web-widget"
+              ]
+            },
             "platform-telegram"
           ]
         },
@@ -41,7 +60,15 @@
             {
               "group": "Pilih Jenis AI",
               "pages": [
-                "Booking/Reservasi",
+                {
+                  "group": "Booking & Reservasi",
+                  "pages": [
+                    "booking-pengaturan",
+                    "booking-file",
+                    "booking-qna",
+                    "booking-penomoran"
+                  ]
+                },
                 {
                   "group": "Support Helpdesk",
                   "pages": [
@@ -68,7 +95,20 @@
                     "lead-penomoran"
                   ]
                 },
-                "Chat Commerce"
+                {
+                  "group": "Chat Commerce",
+                  "pages": [
+                    "sales-katalog",
+                    "sales-pengaturan",
+                    "sales-file",
+                    "sales-pengiriman",
+                    "sales-pembayaran",
+                    "sales-keranjang",
+                    "sales-qna",
+                    "sales-penomoran",
+                    "sales-pengingat"
+                  ]
+                }
               ]
             }
           ]

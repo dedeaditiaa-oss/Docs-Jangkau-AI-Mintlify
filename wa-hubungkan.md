@@ -1,5 +1,5 @@
 ---
-title: "Channel WhatsApp"
+title: "Menghubungkan ke Whatsapp"
 description: "Panduan menghubungkan nomor WhatsApp ke sistem dasbor Jangkau AI."
 ---
 

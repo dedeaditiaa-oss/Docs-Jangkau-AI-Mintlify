@@ -1,5 +1,5 @@
 ---
-title: "Channel Website"
+title: "Menghubungkan ke Website"
 description: "Panduan memasang widget live chat langsung pada situs web perusahaan Anda."
 ---
 

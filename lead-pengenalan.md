@@ -9,17 +9,15 @@ Selamat datang di panduan **Lead Generation Bot**! Fitur ini dirancang khusus un
 
 Untuk memahami alur setup dari awal hingga akhir dalam sekali lihat, silakan tonton video tutorial menyeluruh di bawah ini:
 
-<Frame>
-  <iframe
-    width="100%"
-    height="400"
-    src="https://www.youtube.com/embed/KODE_VIDEO_RANGKUMAN_ANDA"
-    title="Tutorial Lengkap Bot Lead Generation - Jangkau AI"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</Frame>
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/bhOsDX4uL0Y"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 
 ---
 

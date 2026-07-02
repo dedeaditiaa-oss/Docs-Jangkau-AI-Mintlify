@@ -9,18 +9,15 @@ Selamat datang di panduan **Support Helpdesk Bot**! Fitur ini dirancang khusus u
 
 Untuk memahami alur setup dari awal hingga akhir dalam sekali lihat, silakan tonton video tutorial menyeluruh di bawah ini:
 
-<Frame>
-  <iframe
-    width="100%"
-    height="400"
-    src="https://www.youtube.com/embed/KODE_VIDEO_RANGKUMAN_CS_ANDA"
-    title="Tutorial Lengkap Bot Support Helpdesk - Jangkau AI"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</Frame>
-
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/JdquxSeu1Bw"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 ---
 
 ## 🧭 Navigasi Fitur Support Helpdesk

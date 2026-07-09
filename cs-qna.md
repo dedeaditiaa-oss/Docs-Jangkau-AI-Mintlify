@@ -15,10 +15,6 @@ Apabila pelanggan mengirimkan keluhan atau pertanyaan bantuan yang cocok dengan 
 
 ## 🧠 Cara Kerja & Panduan Pengisian QnA CS
 
-Sistem pencocokan kata di Jangkau.ai dibangun menggunakan kecerdasan buatan cerdas yang mampu mengenali maksud (*intent*) keluhan pelanggan, meskipun mereka menyampaikannya dengan variasi kalimat atau singkatan yang berbeda.
-
-Gunakan panduan berikut untuk mengisi kolom tanya jawab bantuan:
-
 *   **Pertanyaan (Wajib):** Tuliskan inti kendala atau pertanyaan yang biasa dikeluhkan konsumen. (Contoh: *"Bagaimana cara klaim garansi produk rusak?"*). Kolom ini memuat hingga maksimal **150 karakter**.
 *   **Jawaban (Wajib):** Tuliskan solusi, instruksi langkah demi langkah, atau kebijakan penyelesaian masalah yang jelas dan menenangkan. (Contoh: *"Untuk klaim garansi, silakan kirimkan video unboxing dan nomor invoice Anda ke menu pengajuan tiket bantuan..."*). Kolom ini memuat hingga maksimal **700 karakter**.
 

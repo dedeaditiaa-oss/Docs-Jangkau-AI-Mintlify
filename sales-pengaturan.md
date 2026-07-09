@@ -1,0 +1,32 @@
+---
+title: "Pengaturan Bot Sales"
+description: "Panduan mengonfigurasi tingkat kreativitas respons AI, batas waktu tindak lanjut otomatis (idle), serta fitur pengingat pasca-pembayaran."
+---
+
+Menu **Pengaturan** pada Bot Sales digunakan untuk mengontrol perilaku bot saat berinteraksi dengan pelanggan, manajemen waktu operasional tindak lanjut otomatis, serta aktivasi fitur pengingat transaksi.
+
+![Pengaturan Konfigurasi Bot Sales](/assets/sales-pengaturan-1.png)
+
+---
+
+## ⚙️ Komponen Konfigurasi Utama
+
+Anda dapat menyesuaikan tiga kontrol utama pada halaman ini demi menjaga kualitas dan alur otomasi obrolan robot Anda:
+
+### 1. Tingkat Kreativitas
+Fitur ini menentukan seberapa luwes atau ekspresif gaya bahasa yang digunakan oleh bot dalam merespons pesan percakapan dari calon pembeli.
+* **Rendah Sekali / Rendah:** Bot akan membalas pesan secara kaku, baku, dan sangat disiplin hanya menggunakan data referensi produk yang Anda berikan.
+* **Tinggi / Tinggi Sekali:** Bot akan membalas dengan gaya bahasa yang lebih ekspresif, imajinatif, dan kreatif dalam merangkai kalimat penawaran penjualan.
+
+### 2. Follow Up Setelah Idle
+Fitur otomasi tindakan mandiri bot apabila calon pelanggan tiba-tiba berhenti membalas chat.
+* **Batas Waktu Idle:** Anda dapat menentukan rentang waktu tunggu (misalnya: `30 menit`). Jika pelanggan tidak mengirimkan aktivitas chat baru hingga batas waktu tersebut habis, bot secara otomatis akan mengirimkan pesan tindak lanjut (*follow-up*) untuk memicu kembali obrolan penjualan.
+
+### 3. Reminder Otomatis
+
+* **Fungsi:** Bot akan mengirimkan pesan pengingat (*reminder*) kepada pelanggan sesaat setelah pembayaran mereka dikonfirmasi dan diverifikasi oleh sistem internal Anda.
+* Geser tombol ke **Aktif** untuk menyalakan fitur, atau geser ke **Nonaktif** jika Anda tidak ingin mengirimkan pesan pengingat otomatis pasca-pembayaran.
+
+---
+
+⚠️ **Langkah Terakhir:** Setiap kali Anda selesai mengubah kombinasi skala kreativitas, batas waktu, atau status pengingat, pastikan untuk menekan tombol hijau **Simpan** yang terletak di panel kartu **Simpan Perubahan** sebelah kanan agar pengaturan bot Anda langsung terbarui.

@@ -98,6 +98,7 @@
                 {
                   "group": "Chat Commerce",
                   "pages": [
+                    "sales-pengenalan",
                     "sales-katalog",
                     "sales-pengaturan",
                     "sales-file",

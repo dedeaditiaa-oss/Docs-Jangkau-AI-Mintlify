@@ -12,7 +12,7 @@ Untuk memahami alur setup dari awal hingga akhir dalam sekali lihat, silakan ton
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/embed/bhOsDX4uL0Y"
+  src="https://www.youtube.com/embed/H3ri8KxpzHo"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -32,5 +32,3 @@ Guna mempermudah implementasi, fitur Lead Generation dibagi menjadi beberapa sek
 *   **⭐ [Klasifikasi Lead](/lead-klasifikasi):** Tentukan kriteria lead baru (*Low, Medium, High*).
 *   **🏷️ [Kategori Lead](/lead-kategori):** Kelompokkan pelanggan berdasarkan minat segmen pasar.
 *   **🔢 [Penomoran Otomatis](/lead-penomoran):** Atur format kode unik unik (*Lead ID*) untuk melacak data di Sheets.
-
-tes

@@ -7,18 +7,23 @@ description: "Panduan mengonfigurasi otomatisasi tindak lanjut (follow-up) dan m
 
 Menu **Pengaturan** pada Bot Lead Generation memungkinkan Anda untuk mengonfigurasi otomatisasi tindak lanjut (*follow-up*) dan menyesuaikan gaya kecerdasan buatan (AI) saat merespons prospek Anda.
 
-![Halaman Pengaturan Lead Gen](/assets/pengaturan-1.png)
+![Halaman Pengaturan Lead Gen](/assets/lead-pengaturan-1.png)
 
 ---
+## 1. Tunda Balasan Bot
 
-## 🔔 1. Pesan Pengingat (Reminder)
+* Ketika fitur ini aktif dan Anda menyetel interval contoh : **30 detik**, Bot akan menunggu selama 30 detik sejak pesan pertama masuk.
+* Jika dalam masa tunggu tersebut pelanggan mengirimkan pesan tambahan, penghitung (*timer*) akan otomatis diulang kembali dari awal.
+* Setelah pelanggan berhenti mengirimkan pesan, Bot akan menggabungkan seluruh pesan tersebut, membacanya secara utuh, dan mengirimkan jawaban yang relevan.
+  
+## 🔔 2. Pesan Pengingat (Reminder)
 
 Fitur ini berfungsi untuk mengirimkan notifikasi otomatis kepada pelanggan. 
 Jika diaktifkan (*toggle* menyala), Bot AI akan secara otomatis mengirimkan pesan pengingat kepada prospek atau pelanggan yang telah berhasil melakukan penjadwalan (janji temu) dengan bisnis Anda. Ini sangat berguna untuk mengurangi tingkat pembatalan atau ketidakhadiran (*no-show*).
 
 ---
 
-## ✨ 2. Tingkat Kreativitas AI (Temperature)
+## ✨ 3. Tingkat Kreativitas AI
 
 Pengaturan ini mengontrol seberapa kaku atau luwes AI dalam merangkai kata saat membalas pesan dari pelanggan. Anda dapat memilih skala kreativitas dari menu *dropdown* yang tersedia:
 
@@ -28,11 +33,11 @@ Pengaturan ini mengontrol seberapa kaku atau luwes AI dalam merangkai kata saat 
 
 ---
 
-## ⏱️ 3. Follow Up Setelah Idle
+## ⏱️ 4. Follow Up Setelah Idle
 
-Di dunia *sales*, pelanggan yang tiba-tiba berhenti membalas (*ghosting*) adalah hal yang biasa. Fitur ini dirancang untuk mengatasi masalah tersebut secara otomatis.
+Fitur ini berfungsi untuk melakukan follow up pada pelanggan, jika pelanggan tidak membalas dalam rentang waktu yang ditentukan
 
-* **Fungsi:** Jika pelanggan tidak membalas pesan bot dalam kurun waktu tertentu, bot akan otomatis mengirimkan pesan *follow-up* (tindak lanjut) untuk memancing kembali interaksi pelanggan.
+* **Fungsi:** Jika dinyalakan, apabila pelanggan tidak membalas pesan bot dalam kurun waktu tertentu, bot akan otomatis mengirimkan pesan follow-up untuk kembali interaksi pelanggan. Jika dimatikan, nantinya bot tidak akan melakukan follow up apabila pelanggan tidak membalas pesan
 * **Batas Waktu Idle:** Anda bisa menentukan sendiri berapa lama bot harus menunggu sebelum mengirim pesan *follow-up* (misalnya: `30 menit`).
 
 ---

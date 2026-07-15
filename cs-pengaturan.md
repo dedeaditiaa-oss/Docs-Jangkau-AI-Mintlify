@@ -75,8 +75,18 @@ Berikut adalah contoh format tampilan ringkasan notifikasi yang akan diterima ol
 ![Halaman Formulir Tambah Notifikasi Internal](/assets/cs-pengaturan-8.png)
 
 ---
+## 2. Tunda Balasan Bot
 
-## ✨ 2. Tingkat Kreativitas AI (Temperature)
+Tunda balasan bot berfungsi agar bot anda tidak langsung membalas pesan dari pelanggan
+
+![Tunda balasan bot](/assets/cs-pengaturan-bot.png)
+
+### 💡 Cara Kerja Sistem:
+* Ketika fitur ini aktif dan Anda menyetel interval contoh : **30 detik**, Bot akan menunggu selama 30 detik sejak pesan pertama masuk.
+* Jika dalam masa tunggu tersebut pelanggan mengirimkan pesan tambahan, penghitung (*timer*) akan otomatis diulang kembali dari awal.
+* Setelah pelanggan berhenti mengirimkan pesan, Bot akan menggabungkan seluruh pesan tersebut, membacanya secara utuh, dan mengirimkan jawaban yang relevan.
+
+## ✨ 3. Tingkat Kreativitas AI
 
 Pengaturan skala kreativitas mengontrol seberapa kaku atau seberapa luwes gaya bahasa AI saat memberikan batasan kepada konsumen Anda. 
 
@@ -90,13 +100,13 @@ Anda dapat menentukan tingkatan respons melalui pilihan *dropdown* berikut:
 
 ---
 
-## ⏱️ 3. Follow Up Setelah Idle
+## ⏱️ 4. Follow Up Setelah Idle
 
-Fitur ini berfungsi untuk mengatasi masalah operasional di mana pelanggan tiba-tiba berhenti membalas percakapan (*idle*) di tengah-tengah proses penyelesaian masalah atau *troubleshooting* teknis.
+Fitur ini berfungsi untuk mengatasi masalah operasional di mana pelanggan tiba-tiba berhenti membalas percakapan (*idle*).
 
 ![Konfigurasi Batas Idle](/assets/cs-pengaturan-10.png)
 
-* **Fungsi:** Jika pelanggan tidak merespons dalam rentang waktu tertentu, bot akan otomatis mengirimkan pesan sapaan hangat/konfirmasi lanjutan untuk memancing balik respons mereka agar tiket kasus tidak hangus atau kedaluwarsa.
+* **Fungsi:** Apabila dinyalakan, Jika pelanggan tidak merespons dalam rentang waktu tertentu, bot akan otomatis mengirimkan pesan sapaan hangat/konfirmasi lanjutan untuk memancing balik respons mereka agar tiket kasus tidak hangus atau kedaluwarsa. Jika Idle dimatikan, nantinya Bot tidak akan melakukan follow up apabila pelanggan tidak membalas
 * **Batas Waktu Idle:** Anda dapat memilih durasi waktu tunggu bot yang sesuai dengan SOP bisnis Anda melalui pilihan menu:
     * `5 menit`   
     * `10 menit`

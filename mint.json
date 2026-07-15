@@ -60,15 +60,7 @@
             {
               "group": "Pilih Jenis AI",
               "pages": [
-                {
-                  "group": "Booking & Reservasi",
-                  "pages": [
-                    "booking-pengaturan",
-                    "booking-file",
-                    "booking-qna",
-                    "booking-penomoran"
-                  ]
-                },
+                
                 {
                   "group": "Support Helpdesk",
                   "pages": [
